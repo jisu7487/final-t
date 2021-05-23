@@ -8,14 +8,14 @@ var mysql = require('mysql');
 var connection = mysql.createConnection({
   host: 'final1',
   port: 3306,
-  user: 'root',   
+  user: 'roodt',   
   password: '7487',
   database: 'pwa_crud'  
 });  
 // Connect
 connection.connect(function (err) {   
   if (err) {     
-    console.error('mysql connection error');     
+    console.error('mysql connection error');   
     console.error(err);     
     throw err;   
   } 

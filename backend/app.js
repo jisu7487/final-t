@@ -12,10 +12,10 @@ var app = express();
 var mysql = require('mysql');
 // Connection 객체 생성 
 var connection = mysql.createConnection({
-  host: 'localhost',
+  host: 'final1',
   port: 3306,
   user: 'root',   
-  password: 'password',
+  password: '7487',
   database: 'pwa_crud'  
 });  
 // Connect
