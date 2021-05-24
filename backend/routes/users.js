@@ -8,7 +8,7 @@ var mysql = require('mysql');
 var connection = mysql.createConnection({
   host: 'final1',
   port: 3306,
-  user: 'roodt',   
+  user: 'root',   
   password: '7487',
   database: 'pwa_crud'  
 });  
